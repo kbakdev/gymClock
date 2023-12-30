@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Gym Clock</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gym Clock</h1>
+        <section class="timer-display">
+            <div class="time-section">
+                <label for="totalGymTime">Total Gym Time:</label>
+                <span id="totalGymTime">00:00:00</span>
+            </div>
+            <div class="time-section">
+                <label for="breakTime">Break Time:</label>
+                <span id="breakTime">00:00:00</span>
+            </div>
+        </section>
+        <ol class="button-group">
+            <li><button id="startButton">🏋️ Start Gym Time</button></li>
+            <li><button id="stopButton">✋ Stop Gym Time</button></li>
+            <li><button id="resetButton">☕ Start Break</button></li>
+            <li><button id="stopBreakButton">🛑 Stop Break</button></li>
+            <li><button id="resetEverythingButton">🔄 Reset Everything</button></li>
+        </ol>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
